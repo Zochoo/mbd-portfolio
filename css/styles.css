@@ -1,0 +1,26 @@
+.header_image {
+  background-image: url('../img/coding.jpg');
+  height: 600px;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about_pic img {
+  width: 350px;
+  height: 350px;
+}
+
+.img-fluid {
+  height: 300px;
+}
+
+@media only screen and (max-width: 991px) {
+  .img-fluid {
+    height: auto;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
